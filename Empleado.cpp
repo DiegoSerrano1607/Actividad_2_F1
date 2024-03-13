@@ -10,7 +10,7 @@ class Empleado : Persona{
 	Empleado(){
 		
 		}
-	Empleado(string nom, string ape, string dir, string fechaN, int tel) : Persona(nom,ape,dir,fechaN,tel){
+	Empleado(string nom, string ape, string dir, int tel) : Persona(nom,ape,dir,tel){
 	    codigo_empleado = n;
 	    puesto = n;
 	
